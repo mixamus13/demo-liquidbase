@@ -1,0 +1,139 @@
+{
+  "id": "e8b2b69b-d408-477f-8195-d29bb4cccaed",
+  "mainApplicationId": null,
+  "maskId": "КБ-setLim-5301",
+  "typeId": "1",
+  "type": {
+    "id": 1,
+    "description": "Заявка на установление / изменение (пересмотр) лимита"
+  },
+  "status": {
+    "id": 1,
+    "description": "Черновик"
+  },
+  "companyGroup": {
+    "id": "dece4140-ce36-43b2-a1b0-642275b6e2a6",
+    "groupName": "Холдинг ААА"
+  },
+  "products": [
+    {
+      "id": "387ec802-2914-49e7-9d50-fd7f95a1dfb1",
+      "name": {
+        "id": 48,
+        "productKindCode": "06",
+        "productKind": "Финансирование",
+        "productTypeCode": "01",
+        "productType": "Кредитование корпоративных клиентов",
+        "productSubTypeCode": "02",
+        "productSubType": "Срочная ссуда",
+        "descriptionCode": "01",
+        "description": "Срочная ссуда",
+        "productCode": "06010201",
+        "deleted": false,
+        "updated": 0,
+        "transactional": "К",
+        "inplatform": true,
+        "commproposal": false
+      },
+      "purpose": {
+        "id": 1,
+        "description": "Пополнение оборотных средств"
+      },
+      "purposeCom": null,
+      "period": 0,
+      "sum": 123123,
+      "currency": {
+        "id": 1,
+        "description": "RUR"
+      },
+      "sumRub": 123123,
+      "contractNumber": null,
+      "contractDate": null,
+      "contractCurrency": null,
+      "hasPotential": null
+    }
+  ],
+  "hasPriority": false,
+  "clientTeam": {
+    "id": "6d551346-f0d3-4943-8030-2a66371738c4",
+    "clientTeamUsers": [
+      {
+        "userId": "dd9bf475-eb67-425c-8c73-f2ae4bfd3f99",
+        "roleId": "38899600-cc00-40cf-ae78-01d345304b7b"
+      },
+      {
+        "userId": "36e3847e-d3d5-423a-948e-7404f6c80f1b",
+        "roleId": "4ab249c3-679b-4db4-8cfa-758696f3abb2"
+      },
+      {
+        "userId": "8fa755de-71b3-4968-a47e-8dfd1fdd3ef6",
+        "roleId": "af181fa5-058a-d233-73f1-fe1f7e66f999"
+      }
+    ]
+  },
+  "author": {
+    "id": "8fa755de-71b3-4968-a47e-8dfd1fdd3ef6",
+    "employeeNumber": null,
+    "lastName": "  Строганов",
+    "firstName": "Алексей",
+    "secondName": "Петрович",
+    "unit": null,
+    "position": "Менеджер"
+  },
+  "creationDate": "2022-03-25T10:56:26.203979Z",
+  "abortType": null,
+  "stageName": null,
+  "currencyExchangeRate": {},
+  "loanSum": 123123123,
+  "loanCurrency": {
+    "id": 1,
+    "description": "RUR"
+  },
+  "loanSumRub": 123123123,
+  "loanPeriod": 12,
+  "currentLoanSum": 0,
+  "currentLoanCurrency": null,
+  "currentLoanSumRub": 0,
+  "hasNda": false,
+  "guarantees": [
+    {
+      "id": "bd540c89-9c2f-4eab-9430-4df2206dabec",
+      "guaranteeType": {
+        "id": 3,
+        "description": "Без обеспечения"
+      },
+      "hasEvaluationReport": null,
+      "guaranteeExpl": null,
+      "guaranteeDescription": null,
+      "guaranteeEvaluation": null,
+      "evaluationCurrency": null,
+      "guaranteeSum": null,
+      "depositType": null,
+      "guarantors": []
+    }
+  ],
+  "autoCheck": null,
+  "sublimits": [
+    {
+      "sublimitDictionary": {
+        "id": 2,
+        "description": "Кредитование"
+      },
+      "sublimitSum": 12343,
+      "currency": {
+        "id": 2,
+        "description": "USD"
+      },
+      "sublimitPeriod": 12,
+      "sublimitSumToRub": 1234300
+    }
+  ],
+  "applicationSum": null,
+  "debtors": [
+    {
+      "id": "5a416b97-30a7-4871-b937-8c374ef06312",
+      "companyGroupId": "dece4140-ce36-43b2-a1b0-642275b6e2a6",
+      "companyId": "5a416b97-30a7-4871-b937-8c374ef06312"
+    }
+  ]
+}

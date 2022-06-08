@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5454/postgres
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    change-log: classpath:db/changelog/db.master-develop-data-changelog.yaml
+    enabled: true
+    contexts: default
+
+  jpa:
+    show-sql: true
+#    hibernate:
+#      ddl-auto: create-drop
+logging:
+  level:
+    org.springframework.jdbc.core.JdbcTemplate: TRACE
+
+server:
+  port: 8888

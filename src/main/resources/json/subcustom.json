@@ -1,0 +1,13 @@
+{
+  "sublimitDictionary": {
+    "id": 2,
+    "description": "Кредитование"
+  },
+  "sublimitSum": 12343,
+  "currency": {
+    "id": 2,
+    "description": "USD"
+  },
+  "sublimitPeriod": 12,
+  "sublimitSumToRub": 1234300
+}

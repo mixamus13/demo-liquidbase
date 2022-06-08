@@ -1,0 +1,65 @@
+{
+  "id": "0c401abd-d896-45b6-b4c0-a801bc56ff3c",
+  "mainApplicationId": null,
+  "maskId": "123Test124",
+  "typeId": "1",
+  "type": {
+    "id": 1,
+    "description": "Заявка на установление / изменение (пересмотр) лимита"
+  },
+  "status": {
+    "id": 1,
+    "description": "Черновик"
+  },
+  "companyGroup": {
+    "id": "e9100caf-2297-4e88-bc2b-8c627899724c",
+    "groupName": "Локальный холдинг для теста"
+  },
+  "products": [],
+  "hasPriority": true,
+  "clientTeam": {
+    "id": "a4151cbc-6ac9-438d-94e4-9adcdec9f23d",
+    "clientTeamUsers": []
+  },
+  "author": {
+    "id": "29e38c22-a6c8-4cc6-8305-56baf8f68f92",
+    "employeeNumber": 322,
+    "lastName": "Фамилия",
+    "firstName": "Имя",
+    "secondName": "Отчество",
+    "unit": null,
+    "position": "Java backend developer"
+  },
+  "creationDate": "2021-08-11T14:01:24.292042+03:00",
+  "abortType": null,
+  "stageName": null,
+  "currencyExchangeRate": null,
+  "loanSum": 123123123.0000,
+  "loanCurrency": {
+    "id": 1,
+    "description": "RUR"
+  },
+  "loanSumRub": 123123123.0000,
+  "loanPeriod": 0,
+  "currentLoanSum": null,
+  "currentLoanCurrency": null,
+  "currentLoanSumRub": null,
+  "hasNda": true,
+  "guarantees": [],
+  "autoCheck": null,
+  "sublimits": [
+    {
+      "sublimitDictionary": {
+        "id": 2,
+        "description": "Кредитование"
+      },
+      "sublimitSum": 12343,
+      "currency": {
+        "id": 2,
+        "description": "USD"
+      },
+      "sublimitPeriod": 12,
+      "sublimitSumToRub": 1234300
+    }
+  ]
+}
