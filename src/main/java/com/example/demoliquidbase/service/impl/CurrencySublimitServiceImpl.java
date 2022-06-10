@@ -1,9 +1,8 @@
-package com.example.demoliquidbase.sevice.impl;
+package com.example.demoliquidbase.service.impl;
 
 import com.example.demoliquidbase.entity.Currency;
 import com.example.demoliquidbase.repository.CurrencyRepository;
-import com.example.demoliquidbase.sevice.CurrencySublimitService;
-import lombok.AllArgsConstructor;
+import com.example.demoliquidbase.service.CurrencySublimitService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

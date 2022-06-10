@@ -1,4 +1,4 @@
-package com.example.demoliquidbase.sevice;
+package com.example.demoliquidbase.service;
 
 import com.example.demoliquidbase.dto.SublimitDto;
 import com.example.demoliquidbase.entity.Sublimit;

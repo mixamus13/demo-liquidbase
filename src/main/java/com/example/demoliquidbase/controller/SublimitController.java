@@ -2,7 +2,7 @@ package com.example.demoliquidbase.controller;
 
 import com.example.demoliquidbase.dto.SublimitDto;
 import com.example.demoliquidbase.entity.Sublimit;
-import com.example.demoliquidbase.sevice.SublimitService;
+import com.example.demoliquidbase.service.SublimitService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -2,7 +2,7 @@ package com.example.demoliquidbase.controller;
 
 import com.example.demoliquidbase.dto.SublimitDictionaryDto;
 import com.example.demoliquidbase.entity.SublimitDictionary;
-import com.example.demoliquidbase.sevice.SublimitDictionaryService;
+import com.example.demoliquidbase.service.SublimitDictionaryService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;

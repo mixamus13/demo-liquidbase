@@ -1,11 +1,11 @@
-package com.example.demoliquidbase.sevice.impl;
+package com.example.demoliquidbase.service.impl;
 
 import com.example.demoliquidbase.copmposer.SublimitComposer;
 import com.example.demoliquidbase.dto.SublimitDto;
 import com.example.demoliquidbase.entity.Sublimit;
 import com.example.demoliquidbase.mapper.SublimitMapper;
 import com.example.demoliquidbase.repository.SublimitRepository;
-import com.example.demoliquidbase.sevice.SublimitService;
+import com.example.demoliquidbase.service.SublimitService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
